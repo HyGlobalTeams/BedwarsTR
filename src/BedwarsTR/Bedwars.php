@@ -1,9 +1,9 @@
-
 <?php
 
   /////////////////////////////////////
  ///// I N  D E V E L O P M E N T/////
 /////////////////////////////////////
+
 namespace BedwarsTR;
 
 use pocketmine\plugin\PluginBase;
