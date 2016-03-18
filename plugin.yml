@@ -1,4 +1,4 @@
-name: BedWarsTR
+name: BedwarsTR
 main: BedWarsTR\Bedwars
 api: [1.13.0]
 version: 1.0.0INDEV
