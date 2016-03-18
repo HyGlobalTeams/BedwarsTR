@@ -3,6 +3,7 @@ main: BedwarsTR\Bedwars
 api: [1.13.0]
 version: 1.0.0INDEV
 author: PMTurkeyDevelopers
+description: BedWars MiniGame Plugin
 
 commands:
     bedwars:
