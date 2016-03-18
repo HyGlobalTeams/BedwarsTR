@@ -114,11 +114,11 @@ switch($cmd->getName()){
 
 case "bw":
 
-$sender->sendMessage("§6Tüm Komutlar:");
+$sender->sendMessage("§6=== §fTüm Komutlar§6 ===");
 
-$sender->sendMessage("§d - /bw başlat :§e Oyunu Başatır(Adminler İçin)");
+$sender->sendMessage("§a - §e/§6bw başlat §b:§f Oyunu Başlatır (Adminler İçin)");
 
-$sender->sendMessage("§b- /bw katıl :§e BedWarsa Katılınılır.");
+$sender->sendMessage("§a- §e/§6bw katıl §b:§f BedWarsa Katılınılır.");
 
 $sender->sendMessage(TextFormat::GOLD."/bw :" .TextFormat::YELLOW. "Lobbye İsinlar.");
 
