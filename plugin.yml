@@ -1,5 +1,5 @@
 name: BedwarsTR
-main: BedwarsTR\Bedwars
+main: BedwarsTR\BedWars
 api: [1.13.0]
 version: 1.0.0INDEV
 author: PMTurkeyDevelopers
