@@ -50,7 +50,7 @@ use pocketmine\level\sound\FizzSound;
 
 use pocketmine\level\particle\DustParticle;
 
-use pocketmine\level\particle\LargeExplodeParticle;
+use pocketmine\level\particle\PortalParticle;
 
 use pocketmine\utils\Config;
 
@@ -70,7 +70,7 @@ public $prefix = Renk::DARK_GRAY . "[" . Renk::RED . "Bed" . Renk::DARK_RED . "W
 
 public function onEnable(){
 
-$this->getLogger()->info("§8[§cBed§4Wars§fTR§8]§a Plugin aktifleştirildi");
+$this->getLogger()->info("§8[§cBed§4Wars§8]§a Plugin Enabled!");
 
 $this->getScheduler()->schedulerRepeatingTask(new CallbackTask([$this,"lobbysan"]),20);
 
